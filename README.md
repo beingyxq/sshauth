@@ -22,7 +22,7 @@ SSH 加固：
 请将下面命令中的 yourname 和 yourpassword 替换为你实际想要设置的内容。
 
 Bash
-curl -sSL https://raw.githubusercontent.com/beingyxq/sshauth/main/setup.sh | sudo bash -s -- yourname yourpassword
+curl -sSL https://raw.githubusercontent.com/beingyxq/sshauth/main/setup_user.sh | sudo bash -s -- yourname yourpassword
 注意：执行后请根据脚本输出的 随机端口号 重新连接服务器。
 
 📋 脚本逻辑说明
