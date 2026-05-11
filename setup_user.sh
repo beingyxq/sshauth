@@ -39,7 +39,7 @@ fi
 
 # 4. 授予 sudo 权限并配置免密 (可选)
 # 如果你希望 sudo 时仍需输入刚才设置的密码，请删除下面这行
-echo "$IF_USER ALL=(ALL) NOPASSWD:ALL" > "/etc/sudoers.d/$IF_USER"
+echo "$IF_USER ALL=(ALL) ALL" > "/etc/sudoers.d/$IF_USER"
 chmod 440 "/etc/sudoers.d/$IF_USER"
 
 # 5. 配置 SSH Key
